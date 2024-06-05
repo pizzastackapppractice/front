@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@storybook/addons": "^7.6.17",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
@@ -20,7 +21,6 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
@@ -62,6 +62,7 @@
     "react-app-alias": "^2.2.2",
     "storybook": "^8.1.5",
     "tailwindcss": "^3.4.3",
+    "tsconfig-paths-webpack-plugin": "^4.1.0",
     "webpack": "5.91.0"
   }
 }
